@@ -1,4 +1,3 @@
-console.log("hey there .. this is the Starter File.");
 const express = require("express");
 const router = require("./Router/Router");
 const app = express();
@@ -20,7 +19,7 @@ const port = 3000;
 
 const start = async () => {
   try {
-    await connectDB(process.env.MONGODB_URL);
+    await connectDB(process.env.TODO_URL);
     app.listen(port, console.log("server is Listining on Port", port));
   } catch (error) {
     console.log(error);

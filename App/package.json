@@ -2,11 +2,11 @@
   "name": "node-express",
   "version": "1.0.0",
   "description": "Learning Node and Express",
-  "main": "./App/index.js",
+  "main": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./App/index.js",
-    "dev": "nodemon./App/index.js"
+    "start": "nodemon ./index.js",
+    "dev": "nodemon ./index.js"
   },
   "repository": {
     "type": "git",
